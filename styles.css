@@ -1,0 +1,44 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+.board-container{
+    height:500px;
+    width:500px;
+    position: relative;
+}
+
+.board{
+    height:500px;
+    width:500px;
+    -webkit-user-drag: none;
+    transform: rotate(90deg);
+}
+
+.piece{
+    position:absolute;
+    height:62.5px;
+    width:62.5px;
+}
+
+.beingDragged{
+    height:70px;
+    width:70px;
+    opacity: 120%;
+    cursor:grab;
+}
+
+.invisible{
+    display: none;
+}
+
+.move-indicator{
+
+    height:62.5px;
+    width:62.5px;
+    background-color:gray;
+    position:absolute;
+
+}
